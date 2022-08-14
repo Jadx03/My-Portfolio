@@ -1,0 +1,44 @@
+.yellow-text{
+    color: #fff12e!important;
+}
+
+#about{
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,0,0,0.80) 33%), url("../assets/img/image-2.jpg");
+    background-size: cover;
+}
+#education{
+    background: linear-gradient(180deg, rgba(0,0,0,0.85) 100%, rgba(255,255,255,1) 100%), url("../assets/img/image-3.jpg");
+    background-size: cover;
+}
+#my-works{
+    background: linear-gradient(180deg, rgba(0,0,0,0.90) 100%, rgba(255,255,255,1) 100%), url("../assets/img/image-4.jpg");
+    background-size: cover;
+}
+.project-1-iframe{
+    height: 500px;
+    width: 100%;
+    max-height: 500px;
+}
+
+.project-image{
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 5px #555;
+    transition: 0.5s all ease-in-out;
+}
+.project-image:hover{
+    transform: scale(1.1);
+}
+.font-large{
+    font-size: large;
+}
+.min-h-10{
+    min-height: 10vh!important;
+}
+
+@media (max-width: 992px){
+    #about{
+        background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,0,0,0.80) 0%), url("../assets/img/image-2.jpg");
+        background-size: cover;
+    }
+  }

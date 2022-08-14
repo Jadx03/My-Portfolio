@@ -41,7 +41,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 70, 52, 78;
+  --bs-primary-rgb: 255, 255, 255;
   --bs-secondary-rgb: 250, 237, 38;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -107,7 +107,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   line-height: 1.2;
-  color: #343a40;
+  color: #ffffff;
 }
 
 h1, .h1 {
@@ -7810,7 +7810,7 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #46344e;
 }
 
 .bg-secondary {
@@ -11291,7 +11291,8 @@ textarea.form-control-lg {
 }
 body {
   padding-top: 3.375rem;
-  color: #6c757d;
+  color: #ffffff;
+  background-color: #333333;
 }
 
 @media (min-width: 992px) {
@@ -11328,6 +11329,7 @@ p.lead {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 1.5rem;
+  color: #ffffff;
 }
 
 #sideNav {
@@ -11390,7 +11392,7 @@ p.lead {
   justify-content: center;
   height: 3.5rem;
   width: 3.5rem;
-  background-color: #495057;
+  background-color: green;
   color: #fff;
   border-radius: 100%;
   font-size: 1.5rem;
@@ -11414,7 +11416,6 @@ section.resume-section {
   padding-right: 1rem;
   padding-top: 5rem;
   padding-bottom: 5rem;
-  max-width: 75rem;
 }
 section.resume-section .resume-section-content {
   width: 100%;
