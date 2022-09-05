@@ -36,6 +36,22 @@
     min-height: 10vh!important;
 }
 
+.my-social-icons{
+    display: inline-flex!important;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: green;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+}
+a.my-social-icons:hover {
+    color: black;
+}
+
 @media (max-width: 992px){
     #about{
         background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,0,0,0.80) 0%), url("../assets/img/image-2.jpg");
